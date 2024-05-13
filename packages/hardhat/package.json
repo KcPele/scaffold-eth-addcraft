@@ -17,12 +17,18 @@
     "hardhat-verify": "hardhat verify"
   },
   "devDependencies": {
+    "@chainlink/contracts": "^0.7.1",
+    "@chainlink/contracts-ccip": "^1.4.0",
+    "@chainlink/env-enc": "^1.0.5",
+    "@chainlink/functions-toolkit": "^0.2.6",
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/providers": "^5.7.1",
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.3",
     "@nomicfoundation/hardhat-ethers": "^3.0.5",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.6",
     "@nomicfoundation/hardhat-verify": "^2.0.3",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/contracts-upgradeable": "^4.9.3",
     "@typechain/ethers-v5": "^10.1.0",
     "@typechain/hardhat": "^9.1.0",
     "@types/eslint": "^8",
@@ -47,7 +53,6 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.8.1",
     "@typechain/ethers-v6": "^0.5.1",
     "dotenv": "^16.0.3",
     "envfile": "^6.18.0",
